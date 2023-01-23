@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #282D35;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar Styles */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 26px;
+    background-color: #21222A;
+}
+
+.nav > div {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.nav > div > img {
+    width: 28.93px;
+    height: 28.93px;
+}
+
+.nav > div > h3 {
+    color: #61DAFB;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 2.7rem;
+    letter-spacing: -0.05em;
+}
+
+.nav > p {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #DEEBF8;
+}
+
+/* Main styles */
+
+.main {
+    padding: 25px 15px;
+    background-image: url(./assets/reactjs-icon-background.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 85%; 
+}
+
+.main > h1 {
+    padding-left: 10px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3.906rem;
+    line-height: 4.7rem;
+    letter-spacing: -0.05em;
+}
+
+.main > ul {
+    padding-left: 35px;
+    max-width: 85%;
+}
+
+.main > ul > li {
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+}
+
+::marker {
+    color:#61DAFB;
+    font-size: 1.4rem;
+}
